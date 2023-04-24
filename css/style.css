@@ -27,10 +27,11 @@ body {
   height: 240px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
+  border: 1px solid #3d8168;
 }
 
 .info {
-    margin: 24px 227px 0 24px;
+  margin: 24px 227px 0 24px;
 }
 
 .info h2 {
@@ -44,7 +45,7 @@ body {
 }
 
 .header {
-    margin: 12px 24px 0 24px;
+  margin: 12px 24px 0 24px;
 }
 
 .header h1 {
@@ -57,7 +58,7 @@ body {
 }
 
 .about {
-    margin: 16px 24px 0 24px;
+  margin: 16px 24px 0 24px;
 }
 .about p {
   font-family: "Montserrat";
@@ -69,7 +70,12 @@ body {
 }
 
 .price {
-    margin: 24px 124px 0 24px;
+  width: 194px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 124px 0 24px;
 }
 .new-price {
   font-family: "Fraunces";
@@ -90,9 +96,30 @@ body {
   color: #6c7289;
 }
 
-.add-to-cart {
+.buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 295px;
   height: 48px;
   background: #3d8168;
   border-radius: 8px;
+  margin: 20px 24px 0 24px;
+}
+
+.buy:hover {
+   background-color:  #1A4032;
+   cursor: pointer;
+}
+
+.logo {
+    margin-right: 12px;
+}
+.add-to-cart {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
 }
